@@ -1,0 +1,154 @@
+		@media all and (min-width: 2000px) {
+    			.header { text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1; }
+			.footer { -webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+			.one { text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1; }
+    			.two { -webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+				#events{text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+		}	
+
+		body {
+			font-family: Verdana, Geneva, Arial, sans-serif;
+			font-size: small;
+			padding-left: 50px;
+			padding-right: 50px;
+			border: thin solid black;
+		}
+		header {
+			background-color: #ffeab7;
+			margin: 10px 10px 0px 10px;
+			height: 200px;
+			border: thin solid black;
+		}
+		footer {
+			background-color: #ffeab7;
+			border: thin solid black;
+			margin: 10px;
+			height: 70px;
+		}
+		footer p {
+			position: absolute;
+			right: 600px;
+			top: 850px;
+		}
+		nav {
+			background-color: #efe5d0;
+			margin: 10px 10px 0px 10px;
+			border: thin solid black;
+		}
+		nav ul {
+			margin: 0px;
+			list-style-type: none;
+			padding: 5px 0px 5px 0px;
+		}
+		nav ul li {
+			display: inline;
+			padding: 5px 10px 5px 10px;
+		}
+		nav ul li a:link, nav ul li a:visited {
+			color: black;
+			border-bottom: none;
+			font-weight: bold;
+		}
+		nav ul li.selected {
+			background-color: #c8b99c;
+		}
+		h1 {
+			font-family: "Emblema One", sans-serif;
+			font-size: 220%;
+			margin-left: 30px;
+			padding-left: 20px;
+		}
+		h2 {
+			font-size: 150%;
+			font-weight: bold;
+		}
+		.one {
+			background-color: #d1f0b2;
+			border: thin solid black;
+			margin: 10px;
+			width:900px;
+			height: 150px;
+			float: right;
+		}
+		#top1 {
+			margin-top: 10px;
+		}
+		.two {
+			background-color: #d1f0b2;
+			border: thin solid black;
+			margin: 10px;
+			width:900px;
+			height: 150px;
+			float: right;
+		}
+		#events {
+			background-color: #ffe2dd;
+			border: thin solid black;
+			margin: 10px;
+			padding: 30px;
+			top: 700px;
+			left: 100px;
+			width: 200px;
+			height: 500px;
+		}
+		header img {
+			position: absolute;
+			top: 35px;
+			left: 150px;
+			border: thin solid black;
+		}
+		header h2 {
+			position: absolute;
+			top: 50px;
+			right: 500px;
+			padding: 20px;
+		}
+		#ad {
+			position: absolute;
+			top: 70px;
+			right: 200px;
+			padding: 20px;
+			list-style: none;
+		}
+		#ph {
+			position: absolute;
+			top: 90px;
+			right: 210px;
+			padding: 20px;
+			list-style: none;
+		}
+		.one img {
+			border: thin solid black;
+			margin: 10px 550px 20px 10px;
+			float: left;
+		}
+		.one p {
+			margin-right: 20px;
+			padding-right: 20px;
+			text-align: left;
+		}
+		.two img {
+			border: thin solid black;
+			margin: 10px 10px 10px 550px;
+			float: right;
+		}
+		.two p {
+			margin-left: 20px;
+			padding-left: 20px;
+		}
+		h1 {
+			position: absolute;
+			top: 235px;
+			right: 750px;
+			padding: 10px;
+		}
+		#campus {
+			 border-right: thin solid black;
+			 border-left: thin solid black;
+			 margin: 10px;
+			 margin-top: 30px;
+			 padding: 10px;
+			 width:920px;
+			 height: 520px;	
+			 float: right;
+		}
